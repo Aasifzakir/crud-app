@@ -1,0 +1,115 @@
+.home-container{
+    /* height: 100vh; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+
+.t-head{
+    background-color: black;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.t-head th{
+    padding: 10px;
+}
+
+.t-body{
+    text-align: left;
+}
+
+.t-body td{
+    border-bottom: 1px solid black;
+    background-color: beige;
+    padding: 12px;
+}
+
+.edit-btn{
+    background-color: rgba(126, 64, 90, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-btn:hover{
+    background-color: rgba(104, 38, 66, 0.8);
+}
+
+.delete-btn{
+    background-color: rgba(95, 31, 107, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: rgba(64, 15, 73, 0.8);
+}
+
+.view-btn{
+    background-color: rgba(35, 37, 35, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.view-btn:hover{
+    background-color: rgba(27, 28, 27, 0.8);
+}
+
+.add-btn{
+    background-color: rgba(28, 15, 103, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    background-color: rgba(50, 33, 145, .9);
+}
+
+.add-circle{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 105);
+    font-size: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+.add-circle:hover{
+    background-color: rgb(25, 25, 187);
+}
