@@ -22,6 +22,7 @@ function Home() {
   console.log("home", users);
   return (
     <>
+    <h3>Data</h3>
       <div className="add-circle">
         <Link
           to="/addUser"
